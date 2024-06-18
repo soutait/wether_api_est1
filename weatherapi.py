@@ -2,7 +2,6 @@ import json #こちらで先ほど作成したjsonファイルをimportしてい
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
 import requests
-
 #-----------------------天気関係
 url = "https://weather.tsukumijima.net/api/forecast/city/120010"  
 payload = {"city":"120010"}  #このcityの指定コードだと千葉を指す。その他の県は最初に貼った参考リンクの天気予報APIのサイト参照してください。
