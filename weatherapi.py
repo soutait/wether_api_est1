@@ -37,13 +37,13 @@ info = json.load(file)
 
 
 
-CHANNEL_ACCESS_TOKEN = info['CHANNEL_ACCESS_TOKEN']
+CHANNEL_ACCESS_TOKEN = info['3VwMKgnyjwmNXhlSVQgpx2ZB0I1QX2q26dDXm8hm7N6er1HcfwvZBOKQmzi1X+fz6I6+diy2RKr/f0bflJhIJQygX2mXQa7r3rHqa2s+kK2yTB+rMRZSHGh6bQJtx/APQ+AS1eeQv4tuyUJvs9tc6wdB04t89/1O/w1cDnyilFU=']
 line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 
 
 
 def main():
-    USER_ID = info['USER_ID']
+    USER_ID = info['U63f3f2d8d5aef7827f29ef194440ab09']
     messages = TextSendMessage(text = "今日の天気をお知らせします。\n"
     + day +"\n"+ weather+ "\n"+celsius+"\n"+ wave +"\n"+ rain
 )
