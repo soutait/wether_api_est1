@@ -1,3 +1,4 @@
+sample.yml
 # ワークフロー名
 name: test_chatbot
 
@@ -34,11 +35,17 @@ jobs:
           # main.pyの実行
           python main.py
 
+```
 
 
+```yml
+# ワークフロー名
+name: test_chatbot
 
-
-
+# 発火タイミング
+on:
+  schedule:
+    - cron: '0 22 * * *'
 
 jobs:
   build:
