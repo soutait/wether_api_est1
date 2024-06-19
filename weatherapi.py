@@ -1,3 +1,4 @@
+assert 1 == 1
 import json #こちらで先ほど作成したjsonファイルをimportしています。
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
@@ -55,4 +56,5 @@ def main():
     line_bot_api.broadcast(messages = messages)
     
 if __name__ == "__main__":
-    main() 
+    main()
+    
