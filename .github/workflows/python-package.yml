@@ -38,12 +38,7 @@ jobs:
 
 
 
-# ワークフロー名
 
-# 発火タイミング
-on:
-  schedule:
-    - cron: '0 22 * * *'
 
 jobs:
   build:
